@@ -8,7 +8,7 @@
     content="A responsive stats preview card component showcasing business analytics insights. Built with HTML & CSS for Frontend Mentor." />
   <link rel="icon" type="image/png" sizes="32x32" href="/stats-preview-card-component/assets/favicon-32x32-DQjEQYWa.png">
   <title>Frontend Mentor | Stats preview card component</title>
-  <link rel="stylesheet" crossorigin href="/stats-preview-card-component/assets/index-sr0jOlYB.css">
+  <link rel="stylesheet" crossorigin href="/stats-preview-card-component/assets/index-B8-MJ7dp.css">
 </head>
 
 <body>
@@ -23,12 +23,14 @@
       <!-- Image with overlay -->
       <figure class="relative w-full  overflow-hidden lg:w-1/2">
         <div class="overlay 
-        absolute inset-0 bg-soft-violet mix-blend-multiply backdrop-opacity-70 z-10 
+        absolute inset-0 bg-soft-violet mix-blend-multiply z-10 
         "></div>
         <picture>
           <source media="(min-width: 1024px)" srcset="/stats-preview-card-component/assets/image-header-desktop-vbVtyz_d.jpg">
           <source media="(max-width: 1023px)" srcset="/stats-preview-card-component/assets/image-header-mobile-fYqb8l1J.jpg">
-          <img src="/stats-preview-card-component/assets/image-header-mobile-fYqb8l1J.jpg" alt="" class="w-full h-full object-cover z-0">
+          <img src="/stats-preview-card-component/assets/image-header-mobile-fYqb8l1J.jpg" alt="" class="w-full h-full object-cover z-0
+          brightness-110 saturate-110 hue-rotate-0
+          ">
         </picture>
       </figure>
 
@@ -41,12 +43,12 @@
           <h1 class="text-[clamp(1.875rem,2vw,2.7rem)] font-bold leading-tight  md:leading-snug">
             Get <strong class="text-soft-violet ">insights</strong> that help your business grow.
           </h1>
-        </div>
 
-        <p class="text-white-transparent-60 text-[clamp(1rem,1vw,1.25rem)]">
-          Discover the benefits of data analytics and make better decisions regarding revenue, customer
-          experience, and overall efficiency.
-        </p>
+          <p class="text-white-transparent-60 text-[clamp(1rem,1vw,1.25rem)]">
+            Discover the benefits of data analytics and make better decisions regarding revenue, customer
+            experience, and overall efficiency.
+          </p>
+        </div>
 
         <div class="flex flex-col gap-6
         lg:flex-row lg:justify-between lg:w-full m-2

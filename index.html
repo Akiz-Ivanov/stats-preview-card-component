@@ -23,12 +23,14 @@
       <!-- Image with overlay -->
       <figure class="relative w-full  overflow-hidden lg:w-1/2">
         <div class="overlay 
-        absolute inset-0 bg-soft-violet mix-blend-multiply backdrop-opacity-70 z-10 
+        absolute inset-0 bg-soft-violet mix-blend-multiply z-10 
         "></div>
         <picture>
           <source media="(min-width: 1024px)" srcset="/src/assets/images/image-header-desktop.jpg">
           <source media="(max-width: 1023px)" srcset="/src/assets/images/image-header-mobile.jpg">
-          <img src="/src/assets/images/image-header-mobile.jpg" alt="" class="w-full h-full object-cover z-0">
+          <img src="/src/assets/images/image-header-mobile.jpg" alt="" class="w-full h-full object-cover z-0
+          brightness-110 saturate-110 hue-rotate-0
+          ">
         </picture>
       </figure>
 
@@ -41,12 +43,12 @@
           <h1 class="text-[clamp(1.875rem,2vw,2.7rem)] font-bold leading-tight  md:leading-snug">
             Get <strong class="text-soft-violet ">insights</strong> that help your business grow.
           </h1>
-        </div>
 
-        <p class="text-white-transparent-60 text-[clamp(1rem,1vw,1.25rem)]">
-          Discover the benefits of data analytics and make better decisions regarding revenue, customer
-          experience, and overall efficiency.
-        </p>
+          <p class="text-white-transparent-60 text-[clamp(1rem,1vw,1.25rem)]">
+            Discover the benefits of data analytics and make better decisions regarding revenue, customer
+            experience, and overall efficiency.
+          </p>
+        </div>
 
         <div class="flex flex-col gap-6
         lg:flex-row lg:justify-between lg:w-full m-2
